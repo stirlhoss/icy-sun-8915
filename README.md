@@ -52,7 +52,7 @@ Story 3
 As a user,
 When I visit the employee show page,
 I do not see any tickets listed that are not assigned to the employee
-and I see a form to add a ticket to this movie
+and I see a form to add a ticket to this employee
 When I fill in the form with the id of a ticket that already exists in the database
 and I click submit
 Then I am redirected back to that employees show page
