@@ -1,0 +1,16 @@
+<h1><%= @employee.name %></h1>
+<h2><%= @employee.department.name %></h2>
+
+<div id="tickets">
+<h2>Tickets</h2>
+<% @tickets.each do |ticket| %>
+    <%= ticket.subject %>
+    <%= ticket.age %>
+<% end %>
+</div>
+
+<div id="oldest-ticket">
+<h2>Oldest Ticket</h2>
+<%= @tickets.first.subject %>
+<%= @tickets.first.age %>
+</div>
